@@ -1,11 +1,23 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-	font-family: sans-serif;
+/* 
+	universal selector if u want applied on all eleemnts but not inherinted 
+	border-top applies to all child elem
+*/
+* {
+	/* border-top: 10px solid #1098ad; */
+}
+
+/* 
+	declare values, color and font family
+	passed down to child elem contained in body 
+
+	border-top is not inherinted 
+	border top will only be applied to total body
+*/
+body {
 	color: #444;
+	font-family: sans-serif;
+
+	border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -37,7 +49,11 @@ h4 {
 
 p {
 	font-size: 22px;
-	/* distance between lines, will be 1.5 x font-size, default = 1 */
+	/* 
+		distance between lines
+		will be 1.5 x font-size
+		default = 1
+	*/
 	line-height: 1.5;
 }
 
@@ -109,18 +125,26 @@ li:nth-child(odd) {
 	/* color: red; */
 }
 
-/* wont work because p is not the first child, first child is header */
+/*
+wont work because p is not the first child, 
+first child is header 
+*/
 article p:first-child {
 	color: red;
 }
 
 /* Styling links */
 
-/* a with href */
+/* 
+a with href
+remember order
+link,visited,hover,active
+*/
 a:link {
 	color: black;
 	/* remove underline */
 	text-decoration: none;
+	/* cursor: pointer; */
 }
 
 a:visited {
@@ -137,3 +161,35 @@ a:active {
 	background-color: black;
 	font-style: italic;
 }
+
+.subscribe {
+	background-color: #000;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.subscribe:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/* Resolving Conflicts */
+/* #copyright {
+	color: red;
+}
+
+.copyright {
+	color: blue;
+}
+
+.text {
+	color: yellow;
+}
+
+footer p {
+	color: green !important;
+} */
