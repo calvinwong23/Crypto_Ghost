@@ -91,3 +91,49 @@ aside {
 body {
 	background-color: aliceblue;
 }
+
+/* .first-li {
+	font-weight: bold;
+} */
+
+/* pseudo-class  */
+li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
+
+li:nth-child(odd) {
+	/* color: red; */
+}
+
+/* wont work because p is not the first child, first child is header */
+article p:first-child {
+	color: red;
+}
+
+/* Styling links */
+
+/* a with href */
+a:link {
+	color: black;
+	/* remove underline */
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	background-color: black;
+	font-style: italic;
+}
