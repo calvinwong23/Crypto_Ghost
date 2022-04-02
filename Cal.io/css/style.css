@@ -1,3 +1,18 @@
+@import url("../css/article.css");
+@import url("../css/aside.css");
+@import url("../css/author.css");
+@import url("../css/button.css");
+@import url("../css/copyright.css");
+@import url("../css/h.css");
+@import url("../css/header.css");
+@import url("../css/like.css");
+@import url("../css/links.css");
+@import url("../css/list.css");
+@import url("../css/logo.css");
+@import url("../css/nav.css");
+@import url("../css/p.css");
+@import url("../css/subscribe.css");
+
 /* 
 	universal selector if u want applied on all eleemnts but not inherinted 
 	border-top applies to all child elem
