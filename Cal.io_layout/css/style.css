@@ -1,0 +1,48 @@
+@import url("../css/article.css");
+@import url("../css/aside.css");
+@import url("../css/author.css");
+@import url("../css/button.css");
+@import url("../css/copyright.css");
+@import url("../css/h.css");
+@import url("../css/header.css");
+@import url("../css/like.css");
+@import url("../css/links.css");
+@import url("../css/list.css");
+@import url("../css/logo.css");
+@import url("../css/nav.css");
+@import url("../css/p.css");
+@import url("../css/subscribe.css");
+
+/* 
+	universal selector if u want applied on all eleemnts but not inherinted 
+	border-top applies to all child elem
+*/
+* {
+	/* border-top: 10px solid #1098ad; */
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+	declare values, color and font family
+	passed down to child elem contained in body 
+
+	border-top is not inherinted 
+	border top will only be applied to total body
+	
+*/
+body {
+	color: #444;
+	font-family: sans-serif;
+
+	border-top: 10px solid #1098ad;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.container {
+	width: 800px;
+	/* margin: 0 auto; */
+	margin-left: auto;
+	margin-right: auto;
+}

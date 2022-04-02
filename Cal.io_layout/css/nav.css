@@ -1,0 +1,21 @@
+nav {
+	font-size: 18px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/* box model */
+nav a:link {
+	/* background-color: white; */
+	/* ! margin only applied horizontally (left and right) */
+	/* margin: 20px;
+	padding: 20px;
+	display: block; */
+	margin-right: 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+nav a:link:last-child {
+	margin-right: 0;
+}
