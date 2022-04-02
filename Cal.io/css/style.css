@@ -21,6 +21,7 @@ body {
 	font-family: sans-serif;
 
 	border-top: 10px solid #1098ad;
+	background-color: aliceblue;
 }
 
 nav {
@@ -33,9 +34,10 @@ article {
 }
 
 .main-header {
-	background-color: #c5c5c5;
+	background-color: #c5c5c5a9;
 	padding: 20px 40px;
 	margin-bottom: 60px;
+	height: 80px;
 }
 .post-header {
 	margin-bottom: 40px;
@@ -60,6 +62,9 @@ aside {
 	/* Alternate padding synthax */
 	/* padding-top: 50px;
 	padding-bottom: 50px; */
+
+	/* dimensions */
+	width: 500px;
 }
 
 h1,
@@ -145,10 +150,6 @@ li:last-child {
 	list-style: none;
 }
 
-body {
-	background-color: aliceblue;
-}
-
 /* .first-li {
 	font-weight: bold;
 } */
@@ -182,24 +183,24 @@ remember order
 link,visited,hover,active
 */
 a:link {
-	color: black;
+	color: #1098ad;
 	/* remove underline */
 	text-decoration: none;
 	/* cursor: pointer; */
 }
 
 a:visited {
-	color: black;
+	color: #1098ad;
 }
 
 a:hover {
-	color: blue;
+	color: white;
 	font-weight: bold;
 	text-decoration: underline;
 }
 
 a:active {
-	background-color: black;
+	background-color: #1098ad;
 	font-style: italic;
 }
 
@@ -236,7 +237,8 @@ footer p {
 } */
 
 .ghost-logo-1 {
-	margin: 50px;
 	border: solid black;
-	padding: 25px;
+
+	width: 100%;
+	height: auto;
 }
