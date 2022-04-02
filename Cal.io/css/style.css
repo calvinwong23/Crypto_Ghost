@@ -26,6 +26,7 @@ body {
 
 .container {
 	width: 800px;
+	/* margin: 0 auto; */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -61,8 +62,7 @@ aside {
 
 	border-top: 5px solid #1098ad;
 	border-bottom: 5px solid #1098ad;
-
-	padding: 50px 0;
+	padding: 15px 0;
 
 	/* Alternate padding synthax */
 	/* padding-top: 50px;
@@ -70,6 +70,8 @@ aside {
 
 	/* dimensions */
 	width: 500px;
+
+	margin-bottom: 20px;
 }
 
 h1,
@@ -212,11 +214,15 @@ a:active {
 .subscribe {
 	background-color: #000;
 	border: none;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
 	color: #fff;
 	font-size: 20px;
 	text-transform: uppercase;
 	cursor: pointer;
-	margin: 10px;
+	width: 100%;
+	height: auto;
+	padding: 15px;
 }
 
 .subscribe:hover {
