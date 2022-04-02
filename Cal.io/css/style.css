@@ -22,6 +22,7 @@ body {
 
 	border-top: 10px solid #1098ad;
 	background-color: aliceblue;
+	position: relative;
 }
 
 .container {
