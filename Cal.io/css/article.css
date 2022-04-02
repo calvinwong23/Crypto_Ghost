@@ -1,0 +1,11 @@
+article {
+	margin-bottom: 40px;
+}
+
+/*
+wont work because p is not the first child, 
+first child is header 
+*/
+article p:first-child {
+	color: red;
+}

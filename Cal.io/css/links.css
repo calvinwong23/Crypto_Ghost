@@ -1,0 +1,28 @@
+/* Styling links */
+
+/* 
+a with href
+remember order
+link,visited,hover,active
+*/
+a:link {
+	color: #1098ad;
+	/* remove underline */
+	text-decoration: none;
+	/* cursor: pointer; */
+}
+
+a:visited {
+	color: #1098ad;
+}
+
+a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	background-color: #1098ad;
+	font-style: italic;
+}

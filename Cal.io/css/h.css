@@ -1,0 +1,28 @@
+h1,
+h2,
+h3 {
+	color: rgb(13, 196, 202);
+}
+
+h1 {
+	font-size: 26px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+h4 {
+	font-size: 20px;
+
+	text-transform: uppercase;
+	text-align: center;
+}

@@ -1,0 +1,24 @@
+aside {
+	background-color: #f7f7f7;
+	/* width, style, color */
+	/* border: 5px solid #1098ad; */
+
+	/* Alternate border synthax
+	border-top: 5px solid #1098ad;
+	border-bottom: 5px solid #1098ad;
+	border-left: 5px solid #1098ad;
+	border-right: 5px solid #1098ad; */
+
+	border-top: 5px solid #1098ad;
+	border-bottom: 5px solid #1098ad;
+	padding: 15px 0;
+
+	/* Alternate padding synthax */
+	/* padding-top: 50px;
+	padding-bottom: 50px; */
+
+	/* dimensions */
+	width: 500px;
+
+	margin-bottom: 20px;
+}
