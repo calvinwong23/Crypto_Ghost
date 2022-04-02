@@ -4,6 +4,8 @@
 */
 * {
 	/* border-top: 10px solid #1098ad; */
+	margin: 0;
+	padding: 0;
 }
 
 /* 
@@ -12,12 +14,18 @@
 
 	border-top is not inherinted 
 	border top will only be applied to total body
+	
 */
 body {
 	color: #444;
 	font-family: sans-serif;
 
 	border-top: 10px solid #1098ad;
+}
+
+.main-header {
+	background-color: #c5c5c5;
+	padding: 20px 40px;
 }
 
 h1,
@@ -60,6 +68,12 @@ p {
 li {
 	/* 16 px by default*/
 	font-size: 20px;
+	margin: 10px;
+}
+
+/* margin = 10px besides last child */
+li:last-child {
+	margin-bottom: 0;
 }
 
 /* footer p {
@@ -86,10 +100,6 @@ li {
 
 .related-posts {
 	list-style: none;
-}
-
-.main-header {
-	background-color: #f7f7f7;
 }
 
 aside {
@@ -193,3 +203,9 @@ a:active {
 footer p {
 	color: green !important;
 } */
+
+.ghost-logo-1 {
+	margin: 50px;
+	border: solid black;
+	padding: 25px;
+}
