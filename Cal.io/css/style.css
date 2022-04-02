@@ -24,6 +24,11 @@ body {
 	background-color: aliceblue;
 }
 
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 nav {
 	font-size: 18px;
 	margin-top: 15px;
