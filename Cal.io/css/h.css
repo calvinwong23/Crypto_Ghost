@@ -26,3 +26,21 @@ h4 {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+/* 
+	: Pseudo class
+	:: Pseudo Elm
+*/
+h1::first-letter {
+	font-size: 50px;
+}
+
+/* 
+adjacent element 
+sibbling element after 
+
+first sibling p after h2
+*/
+h2 + p::first-line {
+	color: red;
+}
