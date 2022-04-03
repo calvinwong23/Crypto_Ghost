@@ -1,4 +1,17 @@
 /* FLOATS */
+
+/* 
+
+diff between position abolute
+absolute: 
+elements overlap
+positioned to relative
+
+float:
+elements wrap around
+container will not adjust its height for elm
+
+*/
 .author {
 	float: left;
 	margin-top: 10px;
