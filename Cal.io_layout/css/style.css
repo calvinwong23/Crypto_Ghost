@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-	width: 800px;
+	width: 880px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -120,6 +120,25 @@ button {
 	color: blue;
 }
 
-.clear {
+/* Clear Floats */
+/* .clear {
 	clear: both;
+} */
+
+/* 
+Clear float hack 
+::after - creates new elm which will be the last child elm of the container
+	same as adding div at the end
+	inserts brand new elm in the container
+
+content = ''
+	::after only appears if we define something for content property even if its ''
+
+display = block
+	::after and ::before are inline, clearing floats only works on block elm
+*/
+.clearfix::after {
+	clear: both;
+	content: "";
+	display: block;
 }
