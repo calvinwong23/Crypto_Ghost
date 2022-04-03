@@ -1,6 +1,22 @@
+.btn-subscribe {
+	color: #ffffff;
+	background-color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 20px;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.btn-subscribe:hover {
+	color: #000;
+	background-color: #ffffff;
+}
+
 .btn-like {
 	position: absolute;
 	bottom: 100px;
-	right: 50px;
+	right: 0;
 	background-color: #c5c5c5a9;
 }

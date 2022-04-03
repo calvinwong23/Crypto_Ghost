@@ -1,48 +1,116 @@
-@import url("../css/article.css");
-@import url("../css/aside.css");
-@import url("../css/author.css");
-@import url("../css/button.css");
-@import url("../css/copyright.css");
-@import url("../css/h.css");
 @import url("../css/header.css");
-@import url("../css/like.css");
 @import url("../css/links.css");
-@import url("../css/list.css");
-@import url("../css/logo.css");
-@import url("../css/nav.css");
-@import url("../css/p.css");
-@import url("../css/subscribe.css");
+@import url("../css/img.css");
+@import url("../css/related.css");
+@import url("../css/like.css");
 
-/* 
-	universal selector if u want applied on all eleemnts but not inherinted 
-	border-top applies to all child elem
-*/
 * {
-	/* border-top: 10px solid #1098ad; */
 	margin: 0;
 	padding: 0;
 }
 
-/* 
-	declare values, color and font family
-	passed down to child elem contained in body 
-
-	border-top is not inherinted 
-	border top will only be applied to total body
-	
-*/
 body {
 	color: #444;
 	font-family: sans-serif;
 
 	border-top: 10px solid #1098ad;
 	background-color: #ffffff;
-	position: relative;
 }
 
 .container {
 	width: 800px;
-	/* margin: 0 auto; */
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+}
+
+nav {
+	font-size: 18px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	color: #1098ad;
+}
+
+h1 {
+	font-size: 26px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h1::first-letter {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+ul,
+ol {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+li {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
+
+aside {
+	background-color: #c5c5c5a9;
+	padding: 10px 10px;
+	border-top: 5px solid #1098ad;
+	border-bottom: 5px solid #1098ad;
+	width: 500px;
+}
+
+button {
+	color: #000;
+	background-color: #c5c5c5a9;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+
+	bottom: 50px;
+	right: 50px;
+}
+
+.copyright {
+	color: blue;
 }

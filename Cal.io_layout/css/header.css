@@ -2,9 +2,21 @@
 	background-color: #c5c5c5a9;
 	padding: 20px 40px;
 	margin-bottom: 60px;
-	/* height: 80px; */
 }
 
 .post-header {
 	margin-bottom: 40px;
+}
+
+.header_1::after {
+	content: "TOP";
+	background-color: #ffe70e;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
