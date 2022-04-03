@@ -1,6 +1,14 @@
-.ghost_logo_icon {
+.ghost-icon {
 	width: 75px;
 	height: 75px;
+	/* 
+	similar to position: absolute, out of flow
+	all other elements floats around it
+	elements overlay float img
+	elements will be behind the float img, must add more padding
+	*/
+	float: left;
+	margin-bottom: 20px;
 }
 
 .ghost-logo-1 {

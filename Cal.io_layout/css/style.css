@@ -3,6 +3,7 @@
 @import url("../css/img.css");
 @import url("../css/related.css");
 @import url("../css/like.css");
+@import url("../Floats/style.css");
 
 * {
 	margin: 0;
@@ -28,6 +29,7 @@ nav {
 	font-size: 18px;
 	margin-top: 15px;
 	/* text-align: center; */
+	float: right;
 }
 
 h1,
@@ -40,6 +42,7 @@ h1 {
 	font-size: 26px;
 	font-style: italic;
 	text-transform: uppercase;
+	float: left;
 }
 
 h1::first-letter {
