@@ -17,3 +17,17 @@ container will not adjust its height for elm
 	margin-top: 10px;
 	margin-left: 20px;
 }
+
+article {
+	width: 825px;
+	float: left;
+}
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+footer {
+	clear: both;
+}
