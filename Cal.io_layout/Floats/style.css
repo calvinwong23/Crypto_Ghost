@@ -28,6 +28,7 @@ aside {
 	float: right;
 }
 
+/* clear float in footer because float will bring the next child elm with them */
 footer {
 	clear: both;
 }

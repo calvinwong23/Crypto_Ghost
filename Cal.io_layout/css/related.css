@@ -1,6 +1,11 @@
 .related {
-	text-align: center;
+	list-style: none;
+	margin-left: 0;
 }
+
+/* .related-li {
+	list-style: none;
+} */
 .related-author {
 	font-size: 18px;
 	font-weight: bold;
